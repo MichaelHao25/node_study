@@ -8,6 +8,7 @@ http.createServer(function(request, response) {
 		fun1(response);
 		var funname = 'fun3';
 		otherfunction[funname](response);
+		// otherfunction['fun2'](response);
 		// otherfunction['fun3'](response);
 		response.end('');
 	}
