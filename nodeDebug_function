@@ -1,0 +1,13 @@
+node --inspect=localhost:60123 --debug-brk n5_readfile.js
+使用端口为60123的开始debug
+--debug-brk 从第一行开始debug
+n5_readfile.js debug的文件名
+
+
+
+node --inspect=localhost:60123 n5_readfile.js
+开始debug不从第一行开始
+
+
+chrome://inspect/#devices
+打开node debug调试窗口
